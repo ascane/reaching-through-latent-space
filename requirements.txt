@@ -1,0 +1,9 @@
+future
+numpy
+pandas
+pyyaml
+six
+sklearn
+tensorboard
+torch
+torchvision

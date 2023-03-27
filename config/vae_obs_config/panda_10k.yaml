@@ -1,0 +1,21 @@
+# model_params
+    lr_obs            : 0.0001
+
+# optim_params:
+    batch_size   : 128
+    epochs_obs   : 4
+    no_cuda      : false
+    seed         : 1
+    log_interval : 1
+
+# data_params:
+    path_to_dataset            : '/home/chiaman/workspace/reaching-through-latent-space/data'
+    train_data_name            : 'collision_10k_train.dat'
+    test_data_name             : 'collision_10k_test.dat'
+    vae_run_cmd_path           : '/home/chiaman/workspace/reaching-through-latent-space/model_params/panda_10k_test/20230327_202647550-runcmd.json'
+    pretrained_checkpoint_path : '/home/chiaman/workspace/reaching-through-latent-space/model_params/panda_10k_test/snapshots/model.ckpt-000004.pt'
+
+# model_saving_params:
+    model_dir      : '/home/chiaman/workspace/reaching-through-latent-space/model_params/panda_10k_test'
+    save_every     : 2
+    num_best_ckpt  : 1

@@ -1,0 +1,45 @@
+# model_params
+    input_dim         : 10
+    latent_dim        : 7
+    units_per_layer   : 64
+    num_hidden_layers : 2
+    lr_vae            : 0.0001
+
+# optim_params:
+    batch_size   : 128
+    epochs_vae   : 4
+    no_cuda      : false
+    seed         : 1
+    log_interval : 1
+
+# geco_params:
+    g_goal  : 0.01
+    g_lr    : 0.005
+    g_alpha : 0.95 
+    g_init  : 1
+    g_min   : 0.00001
+    g_max   : 100000
+    g_s     : 1
+
+# eval_params:
+    samples            : 10
+    eval_seed          : 622
+    eval_target_seed   : 579
+    eval_obstacle_seed : 943
+
+# data_params:
+    path_to_dataset : '/home/chiaman/workspace/reaching-through-latent-space/data'
+    train_data_name : 'free_space_10k_train.dat'
+    test_data_name  : 'free_space_10k_test.dat'
+
+# am_params:
+    am_lr        : 0.0001
+    am_steps     : 4
+    am_samples   : 100
+    am_auc_parts : 100
+    am_auc_max   : 0.1
+
+# model_saving_params:
+    model_dir      : '/home/chiaman/workspace/reaching-through-latent-space/model_params/panda_10k_test'
+    save_every     : 2
+    num_best_ckpt  : 1

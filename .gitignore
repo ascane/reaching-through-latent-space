@@ -1,0 +1,9 @@
+*__pycache__*
+*tmp*
+*logs*
+*_figs*
+*CMakeLists.txt
+*package.xml
+*model_params/
+*venv*
+*activate
