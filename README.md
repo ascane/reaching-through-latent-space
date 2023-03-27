@@ -22,9 +22,7 @@ If you use our models, datasets or simulation environments in your work, please 
 
 Project page: https://ascane.github.io/projects/20_lspp/index.html
 
-## Model Training
-
-### Training a VAE model
+## Environment Setup
 
 1. [Build a virtual environment using Python 3](https://docs.python.org/3/library/venv.html) and install all the requirements.
 
@@ -52,11 +50,15 @@ Project page: https://ascane.github.io/projects/20_lspp/index.html
     export RTLS_DATA=${RTLS_DATA}
     ```
 
-3. Create a yaml config file (e.g. `config/vae_config/panda_10k.yaml`).
+## Model Training
+
+### Training a VAE model
+
+1. Create a yaml config file (e.g. `config/vae_config/panda_10k.yaml`).
 
    An example file already exists, but `path_to_dataset` and `model_dir` need to be modified.
 
-4. Launch VAE training using `train_vae.py`.
+2. Launch VAE training using `train_vae.py`.
 
     ```
     (venv) $ cd reaching-through-latent-space/src
@@ -77,4 +79,5 @@ Project page: https://ascane.github.io/projects/20_lspp/index.html
     ```
 
 ## Acknowledgements
+
 This work was supported by the UKRI/EPSRC Programme Grant [EP/V000748/1], NIA [EP/S002383/1], the RAIN [EP/R026084/1] and ORCA [EP/R026173/1] Hubs, the Clarendon Fund and Amazon Web Services as part of the Human-Machine Collaboration Programme. The authors also gratefully acknowledge the use of the University of Oxford Advanced Research Computing (ARC) facility in carrying out this work (http://dx.doi.org/10.5281/zenodo.22558) and the use of Hartree Centre resources. We thank Jonathan Gammell for insightful feedback and discussions, and Rowan Border for helping with setting up BIT* and interfacing between OMPL and MoveIt. We also thank Yizhe Wu for recording real-world experiments, and Jack Collins for proofreading our work.
