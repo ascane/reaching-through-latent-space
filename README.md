@@ -2,7 +2,7 @@
 
 ![RTLS overview](docs/overview.png)
 
-This repository contains the non-official implementation of [Reaching Through Latent Space: From joint statistics to path planning in manipulation](https://arxiv.org/abs/2210.11779).
+This repository contains the non-official implementation of [Reaching Through Latent Space: From Joint Statistics to Path Planning in Manipulation](https://arxiv.org/abs/2210.11779).
 
 Hung, C. M., Zhong, S., Goodwin, W., Jones, O. P., Engelcke, M., Havoutis, I., & Posner, I. (2022). Reaching through latent space: From joint statistics to path planning in manipulation. IEEE Robotics and Automation Letters, 7(2), 5334-5341.
 
